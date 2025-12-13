@@ -6,101 +6,94 @@ function App() {
       {/* Hero Section */}
       <header className="hero">
         <div className="container">
-          <div className="logo">
-            <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
-              <path d="M24 4L6 14v14c0 11.11 7.7 21.5 18 24 10.3-2.5 18-12.89 18-24V14L24 4z" fill="#10b981"/>
+          <div className="hero-badge">
+            <svg width="24" height="24" viewBox="0 0 48 48" fill="none">
+              <path d="M24 4L6 14v14c0 11.11 7.7 21.5 18 24 10.3-2.5 18-12.89 18-24V14L24 4z" fill="currentColor"/>
               <path d="M20 24l4 4 8-8" stroke="white" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
-            <h1>Gambling Safety Commission</h1>
+            <span>Verified Safe</span>
           </div>
-          <h2>Protect Yourself from Rigged Gambling Sites</h2>
-          <p className="subtitle">Learn how to identify legitimate operators and avoid scams</p>
+          <h1>Find Legitimate Gambling Sites</h1>
+          <p className="hero-subtitle">Independent verification • License checks • Fair play audits</p>
         </div>
       </header>
 
-      {/* Problem Section */}
-      <section className="problem">
+      {/* Trust Indicators */}
+      <section className="trust-section">
         <div className="container">
-          <h3>The Hidden Dangers of Online Gambling</h3>
-          <div className="stats-grid">
-            <div className="stat-card">
-              <div className="stat-number">$4.2B</div>
-              <div className="stat-label">Lost to gambling scams annually</div>
+          <div className="trust-grid">
+            <div className="trust-card">
+              <div className="trust-icon">🛡️</div>
+              <h3>Licensed Operators</h3>
+              <p>Verified gaming licenses from recognized authorities</p>
             </div>
-            <div className="stat-card">
-              <div className="stat-number">67%</div>
-              <div className="stat-label">Of crypto casinos operate without proper licenses</div>
+            <div className="trust-card">
+              <div className="trust-icon">📊</div>
+              <h3>Fair RTP</h3>
+              <p>Independently audited return-to-player rates</p>
             </div>
-            <div className="stat-card">
-              <div className="stat-number">89%</div>
-              <div className="stat-label">Of rigged sites manipulate RTP (Return to Player)</div>
+            <div className="trust-card">
+              <div className="trust-icon">🔒</div>
+              <h3>Secure Payments</h3>
+              <p>Trusted payment processors and fast withdrawals</p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Education Section */}
-      <section className="education">
+      {/* Featured Offers - Using Promo Images */}
+      <section className="offers-section">
         <div className="container">
-          <h3>How to Verify a Legitimate Gambling Site</h3>
-          <div className="checklist">
-            <div className="check-item">
-              <div className="check-icon">✓</div>
-              <div className="check-content">
-                <h4>Valid Gaming License</h4>
-                <p>Verify the operator holds a legitimate license from a recognized gaming authority (Malta, Curaçao, UK, etc.)</p>
-              </div>
+          <h2>Verified Operator Offers</h2>
+          <p className="section-subtitle">Exclusive promotions from licensed, audited operators</p>
+          
+          <div className="offers-grid">
+            <div className="offer-card">
+              <img src="/promo-no-strings.png" alt="Welcome offer" className="offer-image" />
             </div>
-            <div className="check-item">
-              <div className="check-icon">✓</div>
-              <div className="check-content">
-                <h4>Transparent RTP Disclosure</h4>
-                <p>Legitimate sites publish their Return to Player (RTP) percentages and undergo independent audits</p>
-              </div>
+            <div className="offer-card">
+              <img src="/promo-free-spins.png" alt="Free spins offer" className="offer-image" />
             </div>
-            <div className="check-item">
-              <div className="check-icon">✓</div>
-              <div className="check-content">
-                <h4>Secure Payment Methods</h4>
-                <p>Look for established payment processors and avoid sites that only accept untraceable cryptocurrency</p>
-              </div>
-            </div>
-            <div className="check-item">
-              <div className="check-icon">✓</div>
-              <div className="check-content">
-                <h4>Responsible Gambling Resources</h4>
-                <p>Reputable operators provide access to gambling addiction support and self-exclusion tools</p>
-              </div>
+            <div className="offer-card">
+              <img src="/promo-poker-bonus.png" alt="Poker bonus" className="offer-image" />
             </div>
           </div>
         </div>
       </section>
 
       {/* CTA Section */}
-      <section className="cta">
+      <section className="cta-section">
         <div className="container">
-          <h3>Ready to Find Safe Gambling Sites?</h3>
-          <p>Our independent commission has verified and reviewed legitimate operators</p>
-          <a href="https://fairplaygaming.co" className="cta-button">
-            See Verified Safe Sites →
-          </a>
-          <p className="disclaimer">
-            We provide educational information only. Gambling involves risk. Must be 21+ to gamble.
-          </p>
+          <div className="cta-content">
+            <h2>Ready to See Verified Sites?</h2>
+            <p>View our complete list of independently verified gambling operators</p>
+            <a href="https://fairplaygaming.co" className="cta-button">
+              View Verified Sites
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <path d="M7 3l7 7-7 7" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+            </a>
+          </div>
         </div>
       </section>
 
-      {/* Footer */}
+      {/* Responsible Gambling Footer */}
       <footer className="footer">
         <div className="container">
-          <p>© 2025 Gambling Safety Commission. Educational resource for responsible gambling.</p>
-          <div className="footer-links">
-            <a href="tel:1-800-522-4700">24/7 Helpline: 1-800-522-4700</a>
-            <span>•</span>
-            <a href="https://www.ncpgambling.org" target="_blank" rel="noopener">NCPG</a>
-            <span>•</span>
-            <a href="https://www.gamblersanonymous.org" target="_blank" rel="noopener">Gamblers Anonymous</a>
+          <div className="footer-content">
+            <div className="footer-disclaimer">
+              <p><strong>21+ Only</strong> • Gambling involves risk • Play responsibly</p>
+              <p className="footer-help">Need help? Call <a href="tel:1-800-522-4700">1-800-522-4700</a></p>
+            </div>
+            <div className="footer-links">
+              <a href="https://www.ncpgambling.org" target="_blank" rel="noopener">NCPG</a>
+              <span>•</span>
+              <a href="https://www.gamblersanonymous.org" target="_blank" rel="noopener">Gamblers Anonymous</a>
+              <span>•</span>
+              <a href="https://www.begambleaware.org" target="_blank" rel="noopener">BeGambleAware</a>
+            </div>
           </div>
+          <p className="footer-copyright">© 2025 Gambling Safety Commission. Educational resource only.</p>
         </div>
       </footer>
     </div>
