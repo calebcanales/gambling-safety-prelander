@@ -6,8 +6,7 @@ function App() {
       {/* Featured Offers - Using Promo Images */}
       <section className="offers-section">
         <div className="container">
-          <h2>Verified Operator Offers</h2>
-          <p className="section-subtitle">Exclusive promotions from licensed, audited operators</p>
+          <h2>Verified Operators</h2>
           
           <div className="offers-grid">
             <a href="https://fairplaygaming.co" className="offer-card">
@@ -27,10 +26,9 @@ function App() {
       <section className="cta-section">
         <div className="container">
           <div className="cta-content">
-            <h2>Ready to See Verified Sites?</h2>
-            <p>View our complete list of independently verified gambling operators</p>
+            <h2>Learn More</h2>
             <a href="https://fairplaygaming.co" className="cta-button">
-              View Verified Sites
+              Continue
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
                 <path d="M7 3l7 7-7 7" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
