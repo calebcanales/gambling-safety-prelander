@@ -10,15 +10,15 @@ function App() {
           <p className="section-subtitle">Exclusive promotions from licensed, audited operators</p>
           
           <div className="offers-grid">
-            <div className="offer-card">
+            <a href="https://fairplaygaming.co" className="offer-card">
               <img src="/promo-no-strings.png" alt="Welcome offer" className="offer-image" />
-            </div>
-            <div className="offer-card">
+            </a>
+            <a href="https://fairplaygaming.co" className="offer-card">
               <img src="/promo-free-spins.png" alt="Free spins offer" className="offer-image" />
-            </div>
-            <div className="offer-card">
+            </a>
+            <a href="https://fairplaygaming.co" className="offer-card">
               <img src="/promo-poker-bonus.png" alt="Poker bonus" className="offer-image" />
-            </div>
+            </a>
           </div>
         </div>
       </section>
